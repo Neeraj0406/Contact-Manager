@@ -1,0 +1,21 @@
+.heading{
+    color:blue;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 20px;
+    
+}
+.update_btn{
+    text-decoration: none !important;
+    color:white;
+    margin-right:  15px;
+}
+.func_btn{
+    color: white !important;
+    margin-right: 10px;
+}
