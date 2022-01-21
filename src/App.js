@@ -1,26 +1,20 @@
-import React from 'react'
+import React from "react";
 import Home from "./components/Home";
-import AddContact from './components/AddContact';
-import {  Routes,Route , useRoutes} from 'react-router-dom';
-import UpdateContact from './components/UpdateContact';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import AddContact from "./components/AddContact";
+import { Routes, Route } from "react-router-dom";
+import UpdateContact from "./components/UpdateContact";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
-   return (
+  return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route exact path="/addContact" element={<AddContact/>} />
-        <Route exact path="/user/:id" element={<UpdateContact/>} />
-        
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/addContact" element={<AddContact />} />
+        <Route exact path="/user/:id" element={<UpdateContact />} />
       </Routes>
     </>
-  )
-}
+  );
+};
 
-export default App
-  
-
-
-
+export default App;
