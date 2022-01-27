@@ -1,20 +1,19 @@
-import React from 'react'
-import CardList from "./CardList"
+import React from "react";
+import CardList from "./CardList";
 const Cards = () => {
-    return (
-        <>
-            <h1>Contact Manager</h1>
-            <hr />
-            <div>
-                <h2> Contact List </h2>
-                <button > Add Contact </button> 
+  return (
+    <>
+      <h1>Contact Manager</h1>
+      <hr />
+      <div>
+        <h2> Contact List </h2>
+        <button> Add Contact </button>
+      </div>
+      <hr />
 
-            </div>
-            <hr />
+      <CardList />
+    </>
+  );
+};
 
-            <CardList/>
-        </>
-    )
-}
-
-export default Cards
+export default Cards;
